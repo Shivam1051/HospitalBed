@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Poppins;
+    
+}
+
+.header{
+    width:100%;
+    height:80px;
+    align-items: center;
+    background:seagreen;
+    box-shadow: 0px 0px 10px black;
+    display:flex;
+    justify-content:space-between;
+    padding-right:50px;
+    padding-left: 50px;
+    color: white;
+    
+}
+.header h1{
+	font-size:40px;
+	color:cornsilk;
+}
+
+.header h1 span{
+	color:hotpink;
+}
+.header .links a{
+    margin-right: 25px;
+    text-decoration: none;
+    transition: all 400ms;
+    color:white; 
+    font-size: 20px;  
+}
+
+
+.header .links a:hover{
+    color: royalblue;
+}
+ .landing-page{
+	 width: 100%;
+    height: 600px;
+     background: url('https://www.desunhospital.com/wp-content/uploads/2023/12/logo_make_11_06_2023_340.jpg');
+     background-position: center;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    padding-left: 90px;
+    padding-top: 10px;
+    
+	
+}
